@@ -1,7 +1,5 @@
 pipeline {
-	agent {
-		labels 'generic'
-	}
+	agent any
 	stages {
 		stage("Run the code!") {
 			steps {
